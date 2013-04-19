@@ -1,5 +1,3 @@
-gocardless-partner-example-ruby
-
 # GoCardless Partner Example App (Ruby / Sinatra)
 
 To run the example:
