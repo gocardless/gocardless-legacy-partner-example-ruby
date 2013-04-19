@@ -1,0 +1,9 @@
+<form method="post" action="<%= url("/link-merchant") %>">
+  <input type="submit" value="Link Merchant Account" />
+</form>
+
+<ul>
+  <% @merchants.each do |merchant| %>
+    <li><%= merchant.id %> - <%= merchant.name %></li>
+  <% end %>
+</ul>
